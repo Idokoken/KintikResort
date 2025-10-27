@@ -138,7 +138,7 @@ function ImageSlider() {
             <div className='content'>
               <h1>Welcome to <span>Kintik</span> Resort</h1>
               <p className='pb-3'>
-                Step into a New Haven of Comfort
+                Step into a New Haven of Comfort and Care
               </p>
 
             </div>

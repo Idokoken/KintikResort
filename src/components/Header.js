@@ -72,7 +72,7 @@ function Header() {
                 <Link className="nav-link" to="/facilities">Facilities</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/reservation">Reservation</Link>
+                <Link className="nav-link" to="/contact-us">Reservation</Link>
               </li>
             </ul>
 

@@ -79,6 +79,7 @@ font-family: var(--primary-font);
     justify-content: start;
     align-items: center;
     align-self: end;
+    color: black;
 }
 .info .info-one{
 
@@ -93,9 +94,17 @@ font-family: var(--primary-font);
 .form input, .form textarea, .form button {
     border-radius: 20px 0 20px 20px;
 }
+.form button{
+    background: var(--primary-color);
+    color: white;
+    font-weight: 700;
+    padding: 7px 14px;
+}
 
 
 `;
+
+
 function ContactInfo() {
   return (
     <Wrapper>
@@ -160,7 +169,7 @@ function ContactInfo() {
               <textarea className="form-control" id="comment" name="comment" rows="3"></textarea>
             </div>
             <div className="col-auto">
-              <button type="submit" className="btn btn-primary mb-3">Send Message</button>
+              <button type="submit" className="btn mb-3">Send Message</button>
             </div>
           </form>
         </div>

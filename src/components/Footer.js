@@ -25,6 +25,11 @@ a:hover{
     flex: 100%;
     ${Tablet({ flex: "22%" })}
 }
+.item h3{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-style: italic;
+}
 .item h4{
 
 }
@@ -79,11 +84,12 @@ a:hover{
     align-items: center;
     margin-right: 20px;
     border-radius: 50%;
-    padding: 2px;
+    padding: 15px;
     width: 35px;
     height: 35px;
-    color: var(--primary-color);
-    background: white;
+    color: white;
+    border: 1.5px solid white;
+    background: none;
 }
 .footerIcons, h5{
     margin: 20px;
@@ -121,44 +127,43 @@ function Footer() {
               <span>+2347066890098</span>
             </div>
             <div className="mb-2"><i className="fa-solid fa-envelope-circle-check address-icon"></i>
-              <span>Info@kintikresort.com</span>
+              <span>Info@kintikresort.com.ng</span>
             </div>
           </div>
           <h5>Follow Kintik Resort on</h5>
           <div className="footerIcons">
             <div className="icon"><i className="fa-brands fa-facebook brand"></i></div>
-            <div className="icon"><i className="fa-brands fa-x-twitter brand"></i></div>
+            <div className="icon"><i className="fa-brands fa-tiktok"></i></div>
             <div className="icon"><i className="fa-brands fa-instagram brand"></i></div>
             <div className="icon"><i className="fa-brands fa-youtube brand"></i></div>
           </div>
 
         </div>
         <div className="item">
-          <h4>Company</h4>
+          <h4>Resort</h4>
           <div className="footerItem"><Link to="/">Home</Link></div>
           <div className="footerItem"><Link to="/about-us">About Us</Link></div>
           <div className="footerItem"><Link to="/contact-us">Contact Us</Link></div>
           <div className="footerItem"><Link to="/gallery">Gallery</Link></div>
-          <div className="footerItem"><Link to="/rooms/all">Rooms</Link></div>
+          <div className="footerItem"><Link to="/facilities">Facilities</Link></div>
         </div>
         <div className="item">
           <h4>Services</h4>
-          <div className="footerItem"><Link to="/contact-us">Room Bookings</Link></div>
+          <div className="footerItem"><Link to="/contact-us">Club Meetings</Link></div>
           <div className="footerItem"><Link to="/contact-us">Event Reservations</Link></div>
           <div className="footerItem"><Link to="/contact-us">Restaurant</Link></div>
-          <div className="footerItem"><Link to="/contact-us">Facilities</Link></div>
           <div className="footerItem"><Link to="/contact-us">Dining</Link></div>
         </div>
         <div className="item">
           <h4>Resources</h4>
-          <div className="footerItem"><Link to="/terms">Terms of Service</Link></div>
-          <div className="footerItem"><Link to="/privacy">Privacy Policy</Link></div>
+          <div className="footerItem"><Link to="/terms-and-conditions">Terms of Service</Link></div>
+          <div className="footerItem"><Link to="/privacy-policy">Privacy Policy</Link></div>
         </div>
       </div>
       <hr className="rule" />
       <div className="copyWright">
-        <p className="">Kintik &copy;
-          <span>{new Date().getFullYear()}</span>, All Right Reserved to Kintik Resort
+        <p className="">Kintik &copy; <span>{new Date().getFullYear()}</span>,
+          All Right Reserved to Kintik Resort
         </p>
       </div>
     </Wrapper>

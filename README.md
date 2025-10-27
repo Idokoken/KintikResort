@@ -16,4 +16,4 @@ The technologies used for developing the website includes
 4. Some external dependencies like styled-component, react-router-dom, slick-carousel etc.
 
 
-The hosted(live) website can be viewed on **[https://kintikresortcom](https://kintikresortcom)**.
+The hosted(live) website can be viewed on **[https://kintikresort.com.ng](https://kintikresort.com.ng)**.

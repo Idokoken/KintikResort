@@ -2,19 +2,17 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ErrorPage from "./pages/ErrorPage";
 import Home from "./pages/Home";
-// import Contact from "./pages/Contact";
-// import Teams from "./pages/Terms";
-// import PrivacyPolicy from './pages/PrivacyPolicy';
-// import CookiesPage from "./pages/CookiesPage"
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import ScrollToTop from './components/ScrollToTop';
 import PrivacyPolicy from "./pages/PrivacyPolicy";
-import TaC from "./pages/TaC";
-import CancellationPolicy from "./pages/CancellationPolicy";
+import TermsAndConditions from "./pages/TermsAndConditions";
 import AboutUsPage from "./pages/AboutUsPage";
+import FacilitiesPage from "./pages/FacilitiesPage";
+import GalleryPage from "./pages/GalleryPage";
 import FaqFage from "./pages/FaqFage";
+
 
 function App() {
 
@@ -23,16 +21,15 @@ function App() {
       <Header />
 
       <ScrollToTop >  {/* Add ScrollToTop to listen for route changes */}
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact-us" element={<Contact />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-and-conditions" element={<TaC />} />
-          <Route path="/cancellation-policy" element={<CancellationPolicy />} />
+          <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="/about-us" element={<AboutUsPage />} />
+          <Route path="/facilities" element={<FacilitiesPage />} />
+          <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/faqs" element={<FaqFage />} />
-
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </ScrollToTop>

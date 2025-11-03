@@ -121,10 +121,10 @@ function Footer() {
           <div className="contact">
             <h5>Our Address</h5>
             <div className="mb-2"><i className="fa-solid fa-location-dot address-icon"></i>
-              <span>No. 10 Howedy Street, Maitama, Abuja, Nigeria</span>
+              <span>Olajide Laleye Street, Jahi Abuja, Nigeria</span>
             </div>
             <div className="mb-2"><i className="fa-solid fa-phone address-icon"></i>
-              <span>+2347066890098</span>
+              <span>+2349070059320</span>
             </div>
             <div className="mb-2"><i className="fa-solid fa-envelope-circle-check address-icon"></i>
               <span>Info@kintikresort.com.ng</span>
@@ -132,10 +132,18 @@ function Footer() {
           </div>
           <h5>Follow Kintik Resort on</h5>
           <div className="footerIcons">
-            <div className="icon"><i className="fa-brands fa-facebook brand"></i></div>
-            <div className="icon"><i className="fa-brands fa-tiktok"></i></div>
-            <div className="icon"><i className="fa-brands fa-instagram brand"></i></div>
-            <div className="icon"><i className="fa-brands fa-youtube brand"></i></div>
+            <Link to="https://www.facebook.com/share/1BGsdnf4EB/"
+              target="_blank" className="icon"><i className="fa-brands fa-facebook brand"></i>
+            </Link>
+            <Link to="https://www.tiktok.com/@kintikresort?_r=1&_t=ZS-915PJWlHSCH"
+              target="_blank" className="icon"><i className="fa-brands fa-tiktok"></i>
+            </Link>
+            <Link to="https://www.instagram.com/kintikresort?igsh=MTExZWJtanhjNHZndQ=="
+              target="_blank" className="icon"><i className="fa-brands fa-instagram brand"></i>
+            </Link>
+            <Link to="https://www.facebook.com/share/1BGsdnf4EB/"
+              target="_blank" className="icon"><i className="fa-brands fa-youtube brand"></i>
+            </Link>
           </div>
 
         </div>

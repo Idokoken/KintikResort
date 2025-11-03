@@ -78,14 +78,16 @@ const Wrapper = styled.div`
 }
 .achievement{  
     display: flex;
-    flex-direction: column;
-    ${Tablet({ flexDirection: "row", justifyContent: "space-around" })}
+    flex-wrap: wrap;
+    ${Tablet({ justifyContent: "space-around" })}
 }
 .achievement div{  
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    flex: 45%;
+    ${Tablet({ flex: "22%" })}
 }
 
 
@@ -104,10 +106,10 @@ function Home() {
           <div className="our-facilites">
             <div className="my-3 py-3 first-f">
               <div className="img-container">
-                <img className="" src="/images/hero.jpg" alt="play-ground" />
+                <img className="" src="/images/hero1.jpg" alt="play-ground" />
               </div>
               <div className="desc">
-                <h3 className="my-3">Children Play Ground</h3>
+                <h3 className="my-3">Children Area</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
                   accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
                   nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
@@ -118,10 +120,10 @@ function Home() {
             <hr className="rule my-3" />
             <div className="my-3 py-3 second-f">
               <div className="img-container">
-                <img className="" src="/images/hero.jpg" alt="play-ground" />
+                <img className="" src="/images/hero2.jpg" alt="play-ground" />
               </div>
               <div className="desc">
-                <h3 className="my-3">Lounge/Night Club</h3>
+                <h3 className="my-3">Event Center</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
                   accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
                   nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
@@ -134,10 +136,10 @@ function Home() {
             <hr className="rule my-3" />
             <div className="my-3 py-3 third-f">
               <div className="img-container">
-                <img className="" src="/images/hero.jpg" alt="play-ground" />
+                <img className="" src="/images/hero3.jpg" alt="play-ground" />
               </div>
               <div className="desc">
-                <h3 className="my-3">Swimming Pool</h3>
+                <h3 className="my-3">Kintik Beach</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
                   accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
                   nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
@@ -158,6 +160,10 @@ function Home() {
         <section className="achievement-section">
           <h2 className="mb-4">Achievements</h2>
           <div className="achievement container">
+            <div>
+              <h3>100%</h3>
+              <p>Customers satisfied</p>
+            </div>
             <div>
               <h3>100%</h3>
               <p>Customers satisfied</p>

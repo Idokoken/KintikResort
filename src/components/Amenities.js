@@ -46,6 +46,7 @@ const Wrapper = styled.div`
 .gallery-section .galleries .other-galleries .gallery {
     position: relative;
     height: 40vh;
+    box-shadow: 10px 10px 20px 2px rgba(243, 243, 4, 0.4);
     ${Tablet({ height: "38vh" })}
 }
 
@@ -156,7 +157,7 @@ function Amenities() {
                 <h3>Gallery</h3>
                 <div className="galleries">
                     <div className="main-gallery">
-                        <img src="/images/gallery/gallery1.jpg" alt="gallery" />
+                        <img src="/images/gallery/gallery8.jpg" alt="gallery" />
                         <p>Two Bedgallery Presidential Suite</p>
                     </div>
                     <div className="other-galleries">

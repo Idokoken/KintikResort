@@ -102,14 +102,14 @@ function FacilitiesPage() {
             </div>
 
             <section className="facilities container  py-4">
-                <h2 className="my-4">Explore Our vast Array of Facilities</h2>
+                <h2 className="my-4">Explore Our Vast Array of Facilities</h2>
                 <div className="our-facilites">
                     <div className="my-3 py-3 first-f">
                         <div className="img-container">
-                            <img className="" src="/images/hero.jpg" alt="play-ground" />
+                            <img className="" src="/images/gallery/gallery9.jpg" alt="play-ground" />
                         </div>
                         <div className="desc">
-                            <h3 className="my-3">Children Play Ground</h3>
+                            <h3 className="my-3">Children Area</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
                                 accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
                                 nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
@@ -120,10 +120,10 @@ function FacilitiesPage() {
                     <hr className="rule my-3" />
                     <div className="my-3 py-3 second-f">
                         <div className="img-container">
-                            <img className="" src="/images/hero.jpg" alt="play-ground" />
+                            <img className="" src="/images/gallery/gallery12.jpg" alt="play-ground" />
                         </div>
                         <div className="desc">
-                            <h3 className="my-3">Lounge/Night Club</h3>
+                            <h3 className="my-3">Event Center</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
                                 accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
                                 nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
@@ -134,10 +134,10 @@ function FacilitiesPage() {
                     <hr className="rule my-3" />
                     <div className="my-3 py-3 third-f">
                         <div className="img-container">
-                            <img className="" src="/images/hero.jpg" alt="play-ground" />
+                            <img className="" src="/images/gallery/gallery10.jpg" alt="play-ground" />
                         </div>
                         <div className="desc">
-                            <h3 className="my-3">Swimming Pool</h3>
+                            <h3 className="my-3">Kintik Beach</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
                                 accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
                                 nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
@@ -149,10 +149,10 @@ function FacilitiesPage() {
                     <hr className="rule my-3" />
                     <div className="my-3 py-3 fourth-f">
                         <div className="img-container">
-                            <img className="" src="/images/hero.jpg" alt="play-ground" />
+                            <img className="" src="/images/gallery/gallery7.jpg" alt="play-ground" />
                         </div>
                         <div className="desc">
-                            <h3 className="my-3">Event Center</h3>
+                            <h3 className="my-3">Play Ground</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
                                 accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
                                 nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
@@ -164,7 +164,7 @@ function FacilitiesPage() {
                     <hr className="rule my-3" />
                     <div className="my-3 py-3 fifth-f">
                         <div className="img-container">
-                            <img className="" src="/images/hero.jpg" alt="play-ground" />
+                            <img className="" src="/images/gallery/gallery5.jpg" alt="play-ground" />
                         </div>
                         <div className="desc">
                             <h3 className="my-3">Football Pitch</h3>
@@ -179,10 +179,10 @@ function FacilitiesPage() {
                     <hr className="rule my-3" />
                     <div className="my-3 py-3 sixth-f">
                         <div className="img-container">
-                            <img className="" src="/images/hero.jpg" alt="play-ground" />
+                            <img className="" src="/images/gallery/gallery21.jpg" alt="play-ground" />
                         </div>
                         <div className="desc">
-                            <h3 className="my-3">Fun Train</h3>
+                            <h3 className="my-3">Trampoline(Daddio Jump)</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
                                 accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
                                 nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
@@ -190,6 +190,68 @@ function FacilitiesPage() {
                             </p>
                         </div>
                     </div>
+
+                    <hr className="rule my-3" />
+                    <div className="my-3 py-3 fifth-f">
+                        <div className="img-container">
+                            <img className="" src="/images/gallery/gallery2.jpg" alt="play-ground" />
+                        </div>
+                        <div className="desc">
+                            <h3 className="my-3">Kintik Grills(Suya, Shawarma, Pizza etc)</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
+                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
+                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
+                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr className="rule my-3" />
+                    <div className="my-3 py-3 sixth-f">
+                        <div className="img-container">
+                            <img className="" src="/images/gallery/gallery3.jpg" alt="play-ground" />
+                        </div>
+                        <div className="desc">
+                            <h3 className="my-3">Kintik Restaurant</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
+                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
+                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
+                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr className="rule my-3" />
+                    <div className="my-3 py-3 fifth-f">
+                        <div className="img-container">
+                            <img className="" src="/images/gallery/gallery20.jpg" alt="play-ground" />
+                        </div>
+                        <div className="desc">
+                            <h3 className="my-3">lounge and Bar</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
+                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
+                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
+                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr className="rule my-3" />
+                    <div className="my-3 py-3 sixth-f">
+                        <div className="img-container">
+                            <img className="" src="/images/gallery/gallery21.jpg" alt="play-ground" />
+                        </div>
+                        <div className="desc">
+                            <h3 className="my-3">Live Band Area</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
+                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
+                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
+                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            </p>
+                        </div>
+                    </div>
+
+
                 </div>
             </section>
 

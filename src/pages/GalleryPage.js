@@ -41,6 +41,10 @@ const Wrapper = styled.div`
         text-align: center;
         
     }
+     h3{
+        color: var(--primary-color);
+        font-weight: 700;
+    }
 
     .gallery-section {
     display: flex;
@@ -140,16 +144,16 @@ function GalleryPage() {
         <h1 className="text-bold">Gallery</h1>
       </div>
       <div className='mt-3 mx-3'>
-        <h3 className='title '>Explore Kintik Rsort awesome Environment</h3>
+        <h3 className='title '>Explore Kintik Resort Awesome Environment</h3>
       </div>
       <section className="gallery-section">
         <div className="galleries first-section">
           <div className="main-gallery">
-            <img src="/images/gallery/gallery1.jpg" alt="gallery" />
+            <img src="/images/gallery/gallery8.jpg" alt="gallery" />
           </div>
           <div className="other-galleries">
             <div className="gallery">
-              <img src="/images/gallery/gallery2.jpg" alt="gallery" />
+              <img src="/images/gallery/gallery7.jpg" alt="gallery" />
             </div>
             <div className="gallery">
               <img src="/images/gallery/gallery3.jpg" alt="gallery" />
@@ -166,39 +170,39 @@ function GalleryPage() {
         <div className="galleries second-section">
           <div className="other-galleries">
             <div className="gallery">
-              <img src="/images/gallery/gallery2.jpg" alt="gallery" />
+              <img src="/images/gallery/gallery14.jpg" alt="gallery" />
             </div>
             <div className="gallery">
-              <img src="/images/gallery/gallery3.jpg" alt="gallery" />
+              <img src="/images/gallery/gallery16.jpg" alt="gallery" />
             </div>
             <div className="gallery">
-              <img src="/images/gallery/gallery4.jpg" alt="gallery" />
+              <img src="/images/gallery/gallery11.jpg" alt="gallery" />
             </div>
             <div className="gallery">
-              <img src="/images/gallery/gallery5.jpg" alt="gallery" />
+              <img src="/images/gallery/gallery12.jpg" alt="gallery" />
             </div>
           </div>
           <div className="main-gallery">
-            <img src="/images/gallery/gallery1.jpg" alt="gallery" />
+            <img src="/images/gallery/gallery18.jpg" alt="gallery" />
           </div>
         </div>
 
         <div className="galleries third-section">
           <div className="main-gallery">
-            <img src="/images/gallery/gallery1.jpg" alt="gallery" />
+            <img src="/images/gallery/gallery9.jpg" alt="gallery" />
           </div>
           <div className="other-galleries">
             <div className="gallery">
-              <img src="/images/gallery/gallery2.jpg" alt="gallery" />
+              <img src="/images/gallery/gallery13.jpg" alt="gallery" />
             </div>
             <div className="gallery">
-              <img src="/images/gallery/gallery3.jpg" alt="gallery" />
+              <img src="/images/gallery/gallery1.jpg" alt="gallery" />
             </div>
             <div className="gallery">
-              <img src="/images/gallery/gallery4.jpg" alt="gallery" />
+              <img src="/images/gallery/gallery21.jpg" alt="gallery" />
             </div>
             <div className="gallery">
-              <img src="/images/gallery/gallery5.jpg" alt="gallery" />
+              <img src="/images/gallery/gallery17.jpg" alt="gallery" />
             </div>
           </div>
         </div>

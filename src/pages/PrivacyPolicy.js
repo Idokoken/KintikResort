@@ -46,7 +46,7 @@ const PrivacyPolicy = () => {
       </div>
 
       <div className='content container'>
-        <p><strong>Privacy Policy for Bento Delivaz Apps</strong></p>
+        {/* <p><strong>Privacy Policy for Bento Delivaz Apps</strong></p>
 
         <p><strong>Effective Date:</strong>&nbsp;22 July 2022</p>
 
@@ -56,7 +56,7 @@ const PrivacyPolicy = () => {
 
         <p>Please read this policy carefully to understand our views and practices regarding your personal data and how we will treat it. By using the Platform, you agree to the terms of this privacy policy. If you do not agree with any part of this policy, please do not use our Platform.</p>
 
-        <p><strong>1. Information We Collect</strong></p>
+        <p><strong>1. Information We Collect</strong></p> */}
 
         <p>1.1. <strong>Personal Information:</strong> When you register on our Platform, we may collect personal information that can identify you, such as your name, email address, phone number, and delivery address.</p>
 
@@ -108,7 +108,7 @@ const PrivacyPolicy = () => {
 
         <p><strong>7. Changes to This Privacy Policy</strong></p>
 
-        <p>We may update this privacy policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any material changes by posting the updated policy on our Platform and updating the effective date. Your continued use of the Platform after any changes to this policy constitutes your acceptance of the updated policy.</p>
+        {/* <p>We may update this privacy policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any material changes by posting the updated policy on our Platform and updating the effective date. Your continued use of the Platform after any changes to this policy constitutes your acceptance of the updated policy.</p>
 
         <p><strong>8. Contact Us</strong></p>
 
@@ -117,7 +117,7 @@ const PrivacyPolicy = () => {
         <p><strong>Bento Delivaz Limited</strong><br />
           Email: hello@bentodelivaz.com</p>
 
-        <p>Thank you for trusting Bento Delivaz with your personal information. We are committed to protecting your privacy and providing a secure experience on our Platform.</p>
+        <p>Thank you for trusting Bento Delivaz with your personal information. We are committed to protecting your privacy and providing a secure experience on our Platform.</p> */}
 
       </div>
 

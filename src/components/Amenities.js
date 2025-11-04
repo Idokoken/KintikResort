@@ -158,24 +158,24 @@ function Amenities() {
                 <div className="galleries">
                     <div className="main-gallery">
                         <img src="/images/gallery/gallery8.jpg" alt="gallery" />
-                        <p>Two Bedgallery Presidential Suite</p>
+
                     </div>
                     <div className="other-galleries">
                         <div className="gallery">
                             <img src="/images/gallery/gallery2.jpg" alt="gallery" />
-                            <p>Two Bedgallery Presidential Suite</p>
+
                         </div>
                         <div className="gallery">
                             <img src="/images/gallery/gallery3.jpg" alt="gallery" />
-                            <p>Two Bedgallery Presidential Suite</p>
+
                         </div>
                         <div className="gallery">
                             <img src="/images/gallery/gallery4.jpg" alt="gallery" />
-                            <p>Two Bedgallery Presidential Suite</p>
+
                         </div>
                         <div className="gallery">
                             <img src="/images/gallery/gallery5.jpg" alt="gallery" />
-                            <p>Two Bedgallery Presidential Suite</p>
+
                         </div>
                     </div>
                 </div>
@@ -190,24 +190,24 @@ function Amenities() {
                 <h3>Amenities</h3>
                 <div className="amenities container">
                     <div className="">
-                        <span><i className="fa-solid fa-spa amenity-icon"></i></span>
-                        <p>Spa</p>
+                        <span><i className="fa-solid fa-children amenity-icon"></i></span>
+                        <p>Children Area</p>
                     </div>
                     <div className="">
                         <span><i className="fa-solid fa-person-swimming amenity-icon"></i></span>
-                        <p>Pool</p>
+                        <p>Beach</p>
                     </div>
                     <div className="">
-                        <span><i className="fa-solid fa-wifi amenity-icon"></i></span>
-                        <p>Wifi</p>
+                        <span><i className="fa-solid fa-calendar amenity-icon"></i></span>
+                        <p>Event Center</p>
                     </div>
                     <div className="">
-                        <span><i className="fa-solid fa-dumbbell amenity-icon"></i></span>
-                        <p>Fitness Center</p>
+                        <span><i className="fa-solid fa-futbol amenity-icon"></i></span>
+                        <p>Football Pitch</p>
                     </div>
                     <div className="">
                         <span><i className="fa-solid fa-shirt amenity-icon"></i></span>
-                        <p>Laundry</p>
+                        <p>Trampoline</p>
                     </div>
                     <div className="">
                         <span><i className="fa-solid fa-square-parking amenity-icon"></i></span>

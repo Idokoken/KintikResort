@@ -44,7 +44,7 @@ const TermsAndConditions = () => {
 			</div>
 
 			<div className='content container'>
-				<p>Welcome to <a href="https://bentodelivaz.com" rel="noreferrer" target="_new">
+				{/* <p>Welcome to <a href="https://bentodelivaz.com" rel="noreferrer" target="_new">
 					bentodelivaz.com</a>, the proprietary website/application of Bento Delivaz Limited
 					(&ldquo;Bento Delivaz&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;).
 					By accessing this platform, you
@@ -52,7 +52,7 @@ const TermsAndConditions = () => {
 					agree to our terms and conditions as outlined below. Please read these
 					terms carefully before using the platform. By using this platform, you agree
 					to be legally bound by these terms. If you have any questions or require clarification,
-					please contact us at hello@bentodelivaz.com.</p>
+					please contact us at hello@bentodelivaz.com.</p> */}
 
 				<h3>1. General Terms</h3>
 
@@ -143,7 +143,7 @@ const TermsAndConditions = () => {
 
 				<h3>8. Limitation of Liability</h3>
 
-				<p>8.1. Nothing in these terms excludes or limits our liability for personal injury arising from our negligence, fraudulent misrepresentation, or any other liability that cannot be excluded or limited by Nigerian law.</p>
+				{/* <p>8.1. Nothing in these terms excludes or limits our liability for personal injury arising from our negligence, fraudulent misrepresentation, or any other liability that cannot be excluded or limited by Nigerian law.</p>
 
 				<p>8.2. To the extent permitted by law, we exclude all conditions, warranties, representations, or other terms that may otherwise apply to our Platform or any content on it, whether express or implied.</p>
 
@@ -155,7 +155,7 @@ const TermsAndConditions = () => {
 
 				<p>These terms of use are governed by the laws of the Federal Republic of Nigeria. By using our Platform, you agree that any dispute arising from these terms or your use of our Platform will be subject to the exclusive jurisdiction of the courts of Nigeria.</p>
 
-				<hr />
+				<hr /> */}
 
 			</div>
 

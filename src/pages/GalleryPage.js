@@ -38,10 +38,9 @@ const Wrapper = styled.div`
        }
     .title{
         font-weight: 700;
-        text-align: center;
-        
+        text-align: center;  
     }
-     h3{
+    h3{
         color: var(--primary-color);
         font-weight: 700;
     }
@@ -78,12 +77,14 @@ const Wrapper = styled.div`
 .gallery-section .galleries .main-gallery {
     position: relative;
     height: 40vh;
+    // box-shadow: -4px -4px 1px 1px rgba(243, 243, 4, 0.5), 4px 4px 1px 1px rgba(243, 243, 4, 0.5);
     ${Tablet({ height: "80vh" })}
 }
 
 .gallery-section .galleries .other-galleries .gallery {
     position: relative;
     height: 40vh;
+    // box-shadow: -4px -4px 1px 1px rgba(243, 243, 4, 0.5), 4px 4px 1px 1px rgba(243, 243, 4, 0.5);
     ${Tablet({ height: "38vh" })}
 }
 
@@ -153,10 +154,10 @@ function GalleryPage() {
           </div>
           <div className="other-galleries">
             <div className="gallery">
-              <img src="/images/gallery/gallery7.jpg" alt="gallery" />
+              <img src="/images/gallery/gallery20.jpg" alt="gallery" />
             </div>
             <div className="gallery">
-              <img src="/images/gallery/gallery3.jpg" alt="gallery" />
+              <img src="/images/gallery/gallery26.jpg" alt="gallery" />
             </div>
             <div className="gallery">
               <img src="/images/gallery/gallery4.jpg" alt="gallery" />
@@ -176,14 +177,14 @@ function GalleryPage() {
               <img src="/images/gallery/gallery16.jpg" alt="gallery" />
             </div>
             <div className="gallery">
-              <img src="/images/gallery/gallery11.jpg" alt="gallery" />
+              <img src="/images/gallery/gallery23.jpg" alt="gallery" />
             </div>
             <div className="gallery">
               <img src="/images/gallery/gallery12.jpg" alt="gallery" />
             </div>
           </div>
           <div className="main-gallery">
-            <img src="/images/gallery/gallery18.jpg" alt="gallery" />
+            <img src="/images/gallery/gallery3.jpg" alt="gallery" />
           </div>
         </div>
 
@@ -202,7 +203,7 @@ function GalleryPage() {
               <img src="/images/gallery/gallery21.jpg" alt="gallery" />
             </div>
             <div className="gallery">
-              <img src="/images/gallery/gallery17.jpg" alt="gallery" />
+              <img src="/images/gallery/gallery.jpg" alt="gallery" />
             </div>
           </div>
         </div>

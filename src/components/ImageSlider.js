@@ -4,7 +4,7 @@ import styled from "styled-components";
 // import { HashLink as Link } from "react-router-hash-link";
 import Image1 from "./items/image1.jpg"
 import Image2 from "./items/image2.jpg"
-import Image3 from "./items/image3.jpg"
+import Image3 from "./items/image8.jpg"
 
 
 

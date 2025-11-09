@@ -7,7 +7,7 @@ const Wrapper = styled.div`
   font-family: var(--primary-font);
 
 
-  .gallery-section {
+.gallery-section {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -40,13 +40,14 @@ const Wrapper = styled.div`
 .gallery-section .galleries .main-gallery {
     position: relative;
     height: 40vh;
+    box-shadow: -4px -4px 1px 1px rgba(243, 243, 4, 0.5), 4px 4px 1px 1px rgba(243, 243, 4, 0.5);
     ${Tablet({ height: "80vh" })}
 }
 
 .gallery-section .galleries .other-galleries .gallery {
     position: relative;
     height: 40vh;
-    box-shadow: 10px 10px 20px 2px rgba(243, 243, 4, 0.4);
+    box-shadow: -4px -4px 1px 1px rgba(243, 243, 4, 0.5), 4px 4px 1px 1px rgba(243, 243, 4, 0.5);
     ${Tablet({ height: "38vh" })}
 }
 

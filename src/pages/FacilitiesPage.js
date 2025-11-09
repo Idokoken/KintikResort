@@ -110,10 +110,10 @@ function FacilitiesPage() {
                         </div>
                         <div className="desc">
                             <h3 className="my-3">Children Area</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
-                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
-                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
-                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            <p>Our cosy, children's area is a delightful spot for little ones to play.
+                                Having gentle swings for children. It's a peaceful nook for kids to have
+                                fun while parents relax nearby. A perfect blend of playfulness and tranquility
+                                for families.
                             </p>
                         </div>
                     </div>
@@ -124,10 +124,11 @@ function FacilitiesPage() {
                         </div>
                         <div className="desc">
                             <h3 className="my-3">Event Center</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
-                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
-                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
-                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            <p>
+                                Our large, cool event hall fits up to 500 people. Perfect for weddings,
+                                birthdays, meetings, or parties. It has strong AC, big screens,and clear
+                                sound system. There’s . We help plan everything—food,
+                                decor, music, and more.
                             </p>
                         </div>
                     </div>
@@ -138,10 +139,11 @@ function FacilitiesPage() {
                         </div>
                         <div className="desc">
                             <h3 className="my-3">Kintik Beach</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
-                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
-                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
-                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            <p>
+                                Our soft, golden sand beach is just for our guests. You get free sunbeds,
+                                big umbrellas, and a beach helper to bring you drinks or towels. Swim
+                                in clear blue water, or relax with sunset yoga. The beach is clean,
+                                safe, and open from morning till night.
                             </p>
                         </div>
                     </div>
@@ -153,10 +155,11 @@ function FacilitiesPage() {
                         </div>
                         <div className="desc">
                             <h3 className="my-3">Play Ground</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
-                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
-                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
-                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            <p>
+                                A bright, safe playground with natural grass. Our play ground runs daily
+                                from morning till night. Children and parents can play all sort of outdooor
+                                or indor games here . Parents can relax knowing
+                                kids are happy and safe.
                             </p>
                         </div>
                     </div>
@@ -168,10 +171,9 @@ function FacilitiesPage() {
                         </div>
                         <div className="desc">
                             <h3 className="my-3">Football Pitch</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
-                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
-                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
-                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            <p>We have a big, artificial-grass football pitch with lights for night games.
+                                You can play with friends, family, or join other guests for fun matches.
+                                We give free balls and cones. Great for kids, adults, or team events.
                             </p>
                         </div>
                     </div>
@@ -179,14 +181,14 @@ function FacilitiesPage() {
                     <hr className="rule my-3" />
                     <div className="my-3 py-3 sixth-f">
                         <div className="img-container">
-                            <img className="" src="/images/gallery/gallery21.jpg" alt="play-ground" />
+                            <img className="" src="/images/gallery/gallery15.jpg" alt="play-ground" />
                         </div>
                         <div className="desc">
-                            <h3 className="my-3">Trampoline(Daddio Jump)</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
-                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
-                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
-                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            <h3 className="my-3">Trampoline</h3>
+                            <p>
+                                Bounce into fun on our resort's trampoline,a playful spot in our resort.
+                                A delightful nook for guests of all ages to indulge in
+                                lighthearted fun, adding a dash of playfulness to your luxurious retreat.
                             </p>
                         </div>
                     </div>
@@ -198,11 +200,13 @@ function FacilitiesPage() {
                         </div>
                         <div className="desc">
                             <h3 className="my-3">Kintik Grills(Suya, Shawarma, Pizza etc)</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
-                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
-                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
-                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            <p>
+                                Outdoor barbecue area. Watch chefs grill meat, chicken, fish,
+                                veggies, Pizza, and Shawarma right in front of you. Eat under the
+                                stars with cool music. Open from morning till evening only—great for
+                                groups
                             </p>
+
                         </div>
                     </div>
 
@@ -213,10 +217,10 @@ function FacilitiesPage() {
                         </div>
                         <div className="desc">
                             <h3 className="my-3">Kintik Restaurant</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
-                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
-                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
-                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            <p>
+                                Open all day. Serves breakfast, lunch, and dinner. Enjoy fresh fish,
+                                jollof rice, pepper soup, pasta, burgers, salads, desserts etc. Indoor
+                                and outdoor seating with nice view. Kids’ menu available.
                             </p>
                         </div>
                     </div>
@@ -227,11 +231,11 @@ function FacilitiesPage() {
                             <img className="" src="/images/gallery/gallery20.jpg" alt="play-ground" />
                         </div>
                         <div className="desc">
-                            <h3 className="my-3">lounge and Bar</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
-                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
-                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
-                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            <h3 className="my-3">Lounge and Bar</h3>
+                            <p>
+                                A stylish, comfy spot to relax. Choose from cold beers, wines,
+                                cocktails, fresh juices, or mocktails. Sit inside with AC or outside
+                                with breeze and nice views. Open from 11 AM till late, monday to sunday.
                             </p>
                         </div>
                     </div>
@@ -239,14 +243,15 @@ function FacilitiesPage() {
                     <hr className="rule my-3" />
                     <div className="my-3 py-3 sixth-f">
                         <div className="img-container">
-                            <img className="" src="/images/gallery/gallery21.jpg" alt="play-ground" />
+                            <img className="" src="/images/gallery/gallery22.jpg" alt="play-ground" />
                         </div>
                         <div className="desc">
                             <h3 className="my-3">Live Band Area</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
-                                accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
-                                nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
-                                Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                            <p>
+                                Enjoy live music, Local bands play
+                                Afrobeat, highlife, jazz, and pop hits. Dance, sing along, or just
+                                listen with a drink in hand. Free for all guests.
+                                Family-friendly.
                             </p>
                         </div>
                     </div>
@@ -255,7 +260,7 @@ function FacilitiesPage() {
                 </div>
             </section>
 
-        </Wrapper>
+        </Wrapper >
     )
 }
 

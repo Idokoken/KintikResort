@@ -72,9 +72,14 @@ const Wrapper = styled.div`
     background: var(--primary-color);
     padding: 30px;
     color: white;
+    
 }
 .achievement-section h2{
     text-align: center;
+}
+.achievement-section h3{
+    font-weight: 700;
+    margin-bottom: 16px;
 }
 .achievement{  
     display: flex;
@@ -82,14 +87,15 @@ const Wrapper = styled.div`
     ${Tablet({ justifyContent: "space-around" })}
 }
 .achievement div{  
+    flex: 45%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex: 45%;
     ${Tablet({ flex: "22%" })}
 }
-
+.achievement div p{
+    text-align: center;
+}
 
 `;
 
@@ -110,10 +116,11 @@ function Home() {
               </div>
               <div className="desc">
                 <h3 className="my-3">Children Area</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
-                  accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
-                  nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
-                  Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                <p>
+                  Our cosy, children's area is a delightful spot for little ones to play.
+                  Having gentle swings for children. It's a peaceful nook for kids to have
+                  fun while parents relax nearby. A perfect blend of playfulness and tranquility
+                  for families.
                 </p>
               </div>
             </div>
@@ -124,10 +131,11 @@ function Home() {
               </div>
               <div className="desc">
                 <h3 className="my-3">Event Center</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
-                  accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
-                  nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
-                  Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                <p>
+                  Our large, cool event hall fits up to 500 people. Perfect for weddings,
+                  birthdays, meetings, or parties. It has strong AC, big screens,and clear
+                  sound system. There’s . We help plan everything—food,
+                  decor, music, and more.
                 </p>
               </div>
 
@@ -140,10 +148,11 @@ function Home() {
               </div>
               <div className="desc">
                 <h3 className="my-3">Kintik Beach</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt auctor
-                  accumsan. In varius volutpat enim, ac congue urna sagittis ut. Integer et odio eu
-                  nisi auctor porttitor sed in purus. Vivamus semper mauris non aliquam aliquet.
-                  Ut tellus nisi, mollis in pulvinar id, viverra et diam. Duis sagittis orci in elit
+                <p>
+                  Our soft, golden sand beach is just for our guests. You get free sunbeds,
+                  big umbrellas, and a beach helper to bring you drinks or towels. Swim
+                  in clear blue water, or relax with sunset yoga. The beach is clean,
+                  safe, and open from morning till night.
                 </p>
               </div>
             </div>
@@ -158,24 +167,25 @@ function Home() {
         </section>
 
         <section className="achievement-section">
-          <h2 className="mb-4">Achievements</h2>
+          {/* <h2 className="mb-4">Achievements</h2> */}
           <div className="achievement container">
             <div>
-              <h3>100%</h3>
-              <p>Customers satisfied</p>
+              <h3>20+</h3>
+              <p>Fun Areas</p>
             </div>
             <div>
-              <h3>100%</h3>
-              <p>Customers satisfied</p>
+              <h3>50+</h3>
+              <p>Staff</p>
             </div>
             <div>
-              <h3>100%</h3>
-              <p>Customers satisfied</p>
+              <h3>Over 5+</h3>
+              <p>Different Restaurants</p>
             </div>
             <div>
-              <h3>100%</h3>
-              <p>Customers satisfied</p>
+              <h3>Over 5+</h3>
+              <p>Different Lounge & Bars</p>
             </div>
+
 
           </div>
         </section>

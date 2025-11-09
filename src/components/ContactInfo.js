@@ -58,6 +58,7 @@ font-family: var(--primary-font);
 .info div h5{
     color: var(--primary-color);
     margin-bottom: 15px;
+    font-weight: 700;
 }
 .info div p{
 
@@ -125,7 +126,7 @@ function ContactInfo() {
             <p className="icon">
               <span className="me-2 icon-container">
                 <i className="fa-solid fa-envelope-circle-check address-icon"></i>
-              </span>info@kintikresort.com
+              </span>info@kintikresort.com.ng
             </p>
           </div>
           <div className="info-two">
@@ -134,7 +135,7 @@ function ContactInfo() {
             <p className="icon">
               <span className="me-2 icon-container">
                 <i className="fa-solid fa-phone address-icon"></i>
-              </span>+2349036655765
+              </span>+2349070059320
             </p>
           </div>
           <div className="info-three">
@@ -143,7 +144,7 @@ function ContactInfo() {
             <p className="icon">
               <span className="me-2 icon-container">
                 <i className="fa-solid fa-phone address-icon"></i>
-              </span>+23490355786988
+              </span>+2349070059320
             </p>
           </div>
         </div>

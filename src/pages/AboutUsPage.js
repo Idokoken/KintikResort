@@ -8,6 +8,7 @@ const Wrapper = styled.div`
       margin: 0;
       padding: 0;
       font-family: var(--primary-font);
+      min-height: center;
 
       .head {
           height: 20vh;
@@ -96,6 +97,10 @@ const Wrapper = styled.div`
     height: 100%;
     object-fit: cover;
 }
+p{
+	    font-size: 18px;
+		line-height: 1.8;
+	}
       
 `
 
@@ -109,25 +114,39 @@ function AboutUsPage() {
         <h1 className="text-bold">About Us</h1>
       </div>
 
-      <div className="about-content container">
+      <div className="about-content container mb-3">
 
         <section className="mission p-3">
+          <h3 className='title'>Introduction</h3>
+          <p>Welcome to Kintik Resort, your perfect getaway for relaxation, comfort, and unforgettable
+            moments. Nestled in a serene and beautifully designed environment, our resort offers a
+            peaceful retreat away from the noise of everyday life.
+          </p>
+          <p>
+            We bring you the full resort experience through
+            elegant architecture, lush gardens, a crystal-clear pool, and an atmosphere designed for
+            your ultimate comfort and joy. Whether you’re here for a romantic escape, family vacation,
+            corporate retreat, or weekend recharge, Kintik Resort is the ideal destination to unwind,
+            connect, and create lasting memories.
+          </p>
+          <p>At Kintik Resort, every detail from our warm hospitality to our exceptional amenities
+            is crafted to make your stay as relaxing and memorable as possible.
+          </p>
           <h3>Mission</h3>
           <p>
-            Our mission is to empower travelers by offering a comprehensive and intuitive train reservation
-            platform that ensures easy access to train schedules, ticket bookings, and travel-related
-            services. We are committed to delivering exceptional customer service, fostering sustainable
-            travel practices, and continuously innovating to meet the evolving needs of our customers
+            To provide guests with an exceptional resort experience that blends comfort, style, and
+            personalized hospitality offering relaxation and recreation in a peaceful, beach-like
+            atmosphere without needing the ocean.
           </p>
           <h3>Vision</h3>
           <p className="mb-0">
-            To revolutionize train travel by providing a seamless, efficient, and user-friendly reservation
-            platform that connects travelers with the best train services, enhancing their journey experiences
-            and making train travel the preferred choice for all.
+            To be recognized as the leading resort destination for authentic relaxation and exceptional
+            service a place where guests return to recharge, reconnect, and rediscover the beauty of
+            unwinding
           </p>
         </section>
 
-        <section className="review">
+        {/* <section className="review">
           <h3 className="mx-2 mt-3">What our Customers say About Our Services</h3>
           <div className="customers">
             <div className="customer1">
@@ -160,7 +179,7 @@ function AboutUsPage() {
               <h5>Miriam Winnie</h5>
             </div>
           </div>
-        </section>
+        </section> */}
 
       </div>
 

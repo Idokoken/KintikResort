@@ -134,7 +134,7 @@ function Home() {
                 <p>
                   Our large, cool event hall fits up to 500 people. Perfect for weddings,
                   birthdays, meetings, or parties. It has strong AC, big screens,and clear
-                  sound system. There’s . We help plan everything—food,
+                  sound system. We help plan everything—food,
                   decor, music, and more.
                 </p>
               </div>

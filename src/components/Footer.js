@@ -124,7 +124,7 @@ function Footer() {
               <span>Olajide Laleye Street, Jahi Abuja, Nigeria</span>
             </div>
             <div className="mb-2"><i className="fa-solid fa-phone address-icon"></i>
-              <span>+2349070059320</span>
+              <span>+2348135865868</span>
             </div>
             <div className="mb-2"><i className="fa-solid fa-envelope-circle-check address-icon"></i>
               <span>Info@kintikresort.com.ng</span>

@@ -159,7 +159,7 @@ const PrivacyPolicy = () => {
 
         <p><strong>Email</strong>: info@kintikresort.com.ng</p>
         <p><strong>Address</strong>: Olajide Laleye Street, Jahi, Abuja Nigeria</p>
-        <p><strong>Phone</strong>: +2349070059320</p>
+        <p><strong>Phone</strong>: +2348135865868</p>
 
         <p>Thank you for trusting Kintik Resort with your personal information. We are committed to
           protecting your privacy and providing a secure experience on our Platform.</p>

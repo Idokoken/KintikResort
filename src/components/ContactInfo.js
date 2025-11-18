@@ -135,7 +135,7 @@ function ContactInfo() {
             <p className="icon">
               <span className="me-2 icon-container">
                 <i className="fa-solid fa-phone address-icon"></i>
-              </span>+2349070059320
+              </span>+2348135865868
             </p>
           </div>
           <div className="info-three">
@@ -144,7 +144,7 @@ function ContactInfo() {
             <p className="icon">
               <span className="me-2 icon-container">
                 <i className="fa-solid fa-phone address-icon"></i>
-              </span>+2349070059320
+              </span>+2348135865868
             </p>
           </div>
         </div>

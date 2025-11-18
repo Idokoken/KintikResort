@@ -133,7 +133,7 @@ const TermsAndConditions = () => {
 
 				<p><strong>Email</strong>: info@kintikresort.com.ng</p>
 				<p><strong>Address</strong>: Olajide Laleye Street, Jahi, Abuja Nigeria</p>
-				<p><strong>Phone</strong>: +2349070059320</p>
+				<p><strong>Phone</strong>: +2348135865868</p>
 
 			</div>
 
